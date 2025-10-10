@@ -1,0 +1,132 @@
+/* Tipografía global */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f8f6; /* fondo suave */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar verde */
+.bg-green {
+  background-color: #2e7d32 !important; /* verde natural */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-right: 20px;
+}
+
+.navbar-nav.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important; /* amarillo dorado */
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #2e7d32; /* verde oscuro */
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Sección del formulario */
+section.bg-light {
+  background-color: #d8f0d8 !important; /* verde claro */
+  padding: 60px 20px;
+  border-radius: 15px;
+}
+
+section.bg-light h3 {
+  color: #2e7d32; /* verde oscuro */
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section.bg-light .form-control {
+  border-radius: 10px;
+  border: 1px solid #2e7d32;
+  padding: 10px;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+section.bg-light .form-control:focus {
+  border-color: #1b5e20;
+  box-shadow: 0 0 5px rgba(46,125,50,0.5);
+}
+
+section.bg-light .btn-success {
+  background-color: #2e7d32;
+  border-color: #2e7d32;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+section.bg-light .btn-success:hover {
+  background-color: #1b5e20;
+  transform: scale(1.05);
+}
+
+/* Footer verde */
+footer {
+  background-color: #2e7d32 !important; /* verde natural */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffd700; /* amarillo dorado */
+}
+
+/* Secciones generales */
+section {
+  padding: 60px 0;
+}
+
+/* Títulos generales */
+h2, h3 {
+  color: #2e7d32;
+  font-weight: 700;
+}
