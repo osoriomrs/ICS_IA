@@ -13,7 +13,6 @@ function App() {
     (u) => u.id === usuarioSeleccionadoId
   );
 
-  // Filtrar usuarios según la búsqueda
   const usuariosFiltrados = usuarios.filter((u) =>
     u.nombre.toLowerCase().includes(busqueda.toLowerCase())
   );

@@ -17,7 +17,6 @@ function ProfileCard({ usuario }) {
         <p><strong>Aficiones:</strong></p>
         <div className="aficiones-container">
          {usuario.aficiones.map((aficion, i) => {
-    // Colores por índice
     const colores = ['#0d6efd', '#6c757d', '#198754']; 
     const color = colores[i] || '#0d6efd'; 
     return (
