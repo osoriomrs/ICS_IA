@@ -27,3 +27,6 @@ Una `key` única permite que React sepa qué elementos han cambiado, añadido o 
 
 ## Tecnologías
 React · Bootstrap · Vite
+
+## Despliegue
+[\[https://ejer05-2.netlify.app/](https://ejer05-2.netlify.app/)
