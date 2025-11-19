@@ -1,16 +1,10 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Respuesta Ejercicio 1:
+-Se debe pasar [] como argumento de useEffect
+# Respuesta Ejercicio 2:
+-La variable externa usada es postId, por eso debe ir en la matriz de dependencias
+# Respuesta Ejercicio 3:
+-La limpieza cancela el setTimeout anterior usando clearTimeout,evitando peticiones necesarias mientras se esribe
+# Respuesta Ejercicio 4:
+-En el useEffect se controla el ciclo completo, poner isLoading a true, hacer la petición, capturar errores, y actualizar estados
+# Respuesta Ejercicio 5:
+-Sin useCallBack, la función addPost se volvería a crear en cada render, y el useEffect que depende de ella se ejecutaría siempre,pero no debería
