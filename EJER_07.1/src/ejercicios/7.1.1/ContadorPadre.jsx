@@ -14,8 +14,7 @@ function generateUsers(n = 500) {
   }
   return arr;
 }
-
-export default function ContadorPadre() {
+function ContadorPadre() {
   console.log("ContadorPadre render");
   const [count, setCount] = useState(0);
   const users = generateUsers(500); // generado en cada render -> problema
@@ -33,3 +32,5 @@ export default function ContadorPadre() {
     </div>
   );
 }
+
+export default ContadorPadre;
