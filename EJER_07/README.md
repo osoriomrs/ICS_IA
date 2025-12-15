@@ -1,5 +1,5 @@
 # Respuesta Ejercicio 1:
--Se debe pasar [] como argumento de useEffect
+-Se debe pasar [ ] como argumento de useEffect
 # Respuesta Ejercicio 2:
 -La variable externa usada es postId, por eso debe ir en la matriz de dependencias
 # Respuesta Ejercicio 3:

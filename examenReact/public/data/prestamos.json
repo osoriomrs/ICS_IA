@@ -1,0 +1,12 @@
+[
+  { "id": "p1", "libroId": "l1", "alumnoId": "a1", "fechaPrestamo": "2024-01-10", "fechaDevolucionPrevista": "2024-01-31", "estado": "activo" },
+  { "id": "p2", "libroId": "l3", "alumnoId": "a2", "fechaPrestamo": "2024-01-05", "fechaDevolucionPrevista": "2024-01-26", "estado": "activo" },
+  { "id": "p3", "libroId": "l5", "alumnoId": "a4", "fechaPrestamo": "2024-01-14", "fechaDevolucionPrevista": "2024-02-04", "estado": "devuelto" },
+  { "id": "p4", "libroId": "l6", "alumnoId": "a7", "fechaPrestamo": "2024-01-03", "fechaDevolucionPrevista": "2024-01-24", "estado": "activo" },
+  { "id": "p5", "libroId": "l2", "alumnoId": "a3", "fechaPrestamo": "2024-01-12", "fechaDevolucionPrevista": "2024-02-02", "estado": "activo" },
+  { "id": "p6", "libroId": "l4", "alumnoId": "a6", "fechaPrestamo": "2024-01-16", "fechaDevolucionPrevista": "2024-02-06", "estado": "devuelto" },
+  { "id": "p7", "libroId": "l7", "alumnoId": "a9", "fechaPrestamo": "2024-01-08", "fechaDevolucionPrevista": "2024-01-29", "estado": "activo" },
+  { "id": "p8", "libroId": "l8", "alumnoId": "a5", "fechaPrestamo": "2024-01-18", "fechaDevolucionPrevista": "2024-02-08", "estado": "activo" },
+  { "id": "p9", "libroId": "l9", "alumnoId": "a8", "fechaPrestamo": "2024-01-02", "fechaDevolucionPrevista": "2024-01-23", "estado": "devuelto" },
+  { "id": "p10", "libroId": "l10", "alumnoId": "a10", "fechaPrestamo": "2024-01-07", "fechaDevolucionPrevista": "2024-01-28", "estado": "activo" }
+]

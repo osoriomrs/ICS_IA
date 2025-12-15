@@ -1,0 +1,12 @@
+[
+  { "id": "1", "nombre": "Sergio Osorio", "curso": "3º ESO", "imagen":"/alumnos/peru.jpg" },
+  { "id": "2", "nombre": "Claudia Ruíz", "curso": "4º ESO" },
+  { "id": "3", "nombre": "Enol López", "curso": "1º Bachillerato" },
+  { "id": "4", "nombre": "Laura Fernández", "curso": "2º ESO" },
+  { "id": "5", "nombre": "Marta Ruiz", "curso": "1º ESO" },
+  { "id": "6", "nombre": "Joaquín Gómez", "curso": "2º Bachillerato" },
+  { "id": "7", "nombre": "Ana Navarro", "curso": "4º ESO" },
+  { "id": "8", "nombre": "Pablo Ortega", "curso": "3º ESO" },
+  { "id": "9", "nombre": "Jimena Delgado", "curso": "1º ESO" },
+  { "id": "10", "nombre": "Gonzalo Cabrera", "curso": "2º ESO" }
+]

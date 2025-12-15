@@ -1,0 +1,12 @@
+[
+  { "id": "l1", "titulo": "El Quijote", "autor": "Cervantes", "ejemplaresTotales": 5, "ejemplaresDisponibles": 2 },
+  { "id": "l2", "titulo": "1984", "autor": "George Orwell", "ejemplaresTotales": 3, "ejemplaresDisponibles": 0 },
+  { "id": "l3", "titulo": "La Metamorfosis", "autor": "Franz Kafka", "ejemplaresTotales": 4, "ejemplaresDisponibles": 4 },
+  { "id": "l4", "titulo": "El Principito", "autor": "Antoine de Saint-Exupéry", "ejemplaresTotales": 6, "ejemplaresDisponibles": 5 },
+  { "id": "l5", "titulo": "Crimen y Castigo", "autor": "Dostoyevski", "ejemplaresTotales": 2, "ejemplaresDisponibles": 1 },
+  { "id": "l6", "titulo": "Harry Potter 1", "autor": "J.K. Rowling", "ejemplaresTotales": 7, "ejemplaresDisponibles": 3 },
+  { "id": "l7", "titulo": "El Hobbit", "autor": "Tokien", "ejemplaresTotales": 5, "ejemplaresDisponibles": 5 },
+  { "id": "l8", "titulo": "Farenheit 451", "autor": "Ray Bradbury", "ejemplaresTotales": 4, "ejemplaresDisponibles": 1 },
+  { "id": "l9", "titulo": "Orgullo y Prejuicio", "autor": "Jane Austen", "ejemplaresTotales": 3, "ejemplaresDisponibles": 3 },
+  { "id": "l10", "titulo": "Drácula", "autor": "Bram Stoker", "ejemplaresTotales": 5, "ejemplaresDisponibles": 4 }
+]

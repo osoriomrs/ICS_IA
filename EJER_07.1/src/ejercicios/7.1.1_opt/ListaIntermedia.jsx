@@ -3,7 +3,7 @@ import TarjetaUsuario from "./TarjetaUsuario";
 export default function ListaIntermedia({ usuarios }) {
   console.log("ListaIntermedia render");
 
-  if (!usuarios) return null; // 🔹 evita error si usuarios es undefined
+  if (!usuarios) return null; 
 
   return (
     <div>

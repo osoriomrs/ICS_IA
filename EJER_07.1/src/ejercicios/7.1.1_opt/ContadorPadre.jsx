@@ -1,18 +1,22 @@
-import { useState } from "react";
+import React from "react";
 import ListaIntermedia from "./ListaIntermedia";
 
-export default function ContadorPadre({ usuarios }) {
-  const [contador, setContador] = useState(0);
+function ContadorPadre({ contador }) {
+  console.log("Render → ContadorPadre_opt");
 
-  console.log("ContadorPadre render");
-
-  return (
-    <div>
-      <button onClick={() => setContador(contador + 1)}>
-        Clicks: {contador}
-      </button>
-
-      <ListaIntermedia usuarios={usuarios} />
-    </div>
+  const users = React.useMemo(
+    () =>
+      Array.from({ length: 500 }, (_, i) => ({
+        id: i + 1,
+        name: `Usuario ${i + 1}`,
+        email: `usuario${i + 1}@correo.com`,
+        avatar: `https://i.pravatar.cc/150?img=${(i + 1) % 70 + 1}`,
+        isOnline: Math.random() > 0.5
+      })),
+    []
   );
+
+  return <ListaIntermedia users={users} />;
 }
+
+export default ContadorPadre;

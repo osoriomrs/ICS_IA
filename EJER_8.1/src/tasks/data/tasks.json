@@ -1,0 +1,6 @@
+[
+  { "id": 1, "text": "Comprar leche", "author": "Ana", "completed": false },
+  { "id": 2, "text": "Enviar correo", "author": "Luis", "completed": false },
+  { "id": 3, "text": "Estudiar React", "author": "Ana", "completed": true },
+  { "id": 4, "text": "Leer libro", "author": "Invitado", "completed": false }
+]

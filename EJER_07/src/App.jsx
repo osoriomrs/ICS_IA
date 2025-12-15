@@ -14,8 +14,6 @@ const [selected, setSelected] = useState("posts");
 return (
 <div style={{ padding: "20px" }}>
 <h1>Ejercicios useEffect</h1>
-
-
 <select value={selected} onChange={(e) => setSelected(e.target.value)}>
 <option value="posts">Ejercicio 1: PostList</option>
 <option value="details">Ejercicio 2: PostDetails</option>
