@@ -1,0 +1,57 @@
+import Link from "next/link"
+
+const actors = [
+  {
+    id: "leonardo-dicaprio",
+    name: "Leonardo DiCaprio",
+    age: 49,
+    movies: ["inception", "titanic"]
+  },
+  {
+    id: "joseph-gordon-levitt",
+    name: "Joseph Gordon-Levitt",
+    age: 43,
+    movies: ["inception"]
+  }
+]
+
+const movies = [
+  { id: "inception", title: "Inception" },
+  { id: "titanic", title: "Titanic" }
+]
+
+export default async function ActorDetailPage({ params }) {
+  const { actorId } = params
+
+  const actor = actors.find(a => a.id === actorId)
+
+  if (!actor) {
+    return <p>No se encontró el actor</p>
+  }
+
+  return (
+    <div>
+      <h1>{actor.name}</h1>
+      <p>Edad: {actor.age}</p>
+
+      <p>
+        Películas:{" "}
+        {actor.movies && actor.movies.length > 0 ? (
+          actor.movies.map((movieId, index) => {
+            const movie = movies.find(m => m.id === movieId)
+            return (
+              <span key={movieId}>
+                <Link href={`/movies/${movieId}`}>
+                  {movie?.title || movieId}
+                </Link>
+                {index < actor.movies.length - 1 && ", "}
+              </span>
+            )
+          })
+        ) : (
+          "No hay películas disponibles"
+        )}
+      </p>
+    </div>
+  )
+}

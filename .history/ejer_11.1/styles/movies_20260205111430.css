@@ -1,0 +1,67 @@
+/* Contenedor principal */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+/* Grid de películas o reparto */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Tarjetas */
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fafafa;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Imágenes de las tarjetas */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+/* Poster grande en detalle de película */
+.poster-large {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+/* Texto destacado */
+p {
+  line-height: 1.6;
+}
