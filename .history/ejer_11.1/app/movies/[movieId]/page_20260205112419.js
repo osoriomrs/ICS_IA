@@ -1,8 +1,10 @@
+// app/movies/[movieId]/page.js
 import { getMovieById, getCastByMovieId } from "@/lib/cinema";
 import Link from "next/link";
 import "@/styles/movies.css";
 
 export default async function MovieDetailPage({ params }) {
+  // Desestructuramos params usando await
   const { movieId } = await params;
 
   const movie = getMovieById(movieId);
